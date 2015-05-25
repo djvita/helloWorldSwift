@@ -18,6 +18,9 @@
                                 <state key="normal" title="Go">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="goTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="puf-jU-bnB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nat-oQ-ksj">
                                 <rect key="frame" x="85" y="269" width="150" height="30"/>
@@ -29,6 +32,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="goTapped" destination="jFc-vR-wcr" id="Lxn-6o-NoG"/>
+                        <outlet property="helloLabel" destination="Nat-oQ-ksj" id="POY-RY-e6A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
